@@ -7,10 +7,10 @@
  * @n: is the number of elements OF the array to be printed
  * Return: nothing
  */
+
 void print_array(int *a, int n)
 {
 	int inc;
-
 	for (inc = 0; inc < ; inc++)
 	{
 		if (inc != (n - 1))
@@ -18,6 +18,5 @@ void print_array(int *a, int n)
 		else 
 			printf("%d", a[inc] );
 	}
-
 	putchar(10)
 }
